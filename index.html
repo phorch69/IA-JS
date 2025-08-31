@@ -1,17 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/styles/Global.css">
+    <script type="module" src="/src/script/Global.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <title>Inicio</title>
   </head>
   <body>
     <header></header>
     <main>
-      <a href="/IA-JS/src/pages/IA-1.html">IA-1</a>
-      <br>
-      <a href="/IA-JS/src/pages/IA-2.html">IA-2</a>
+      <!-- <a href="/IA-JS/src/pages/IA-1.html">IA-1</a> -->
+
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/Foto-Inicio-1.png" alt="">
+            <div class="Subtitle">
+              <span>1</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/IA-1-Foto.png" alt="">
+            <div class="Subtitle">
+              <span>2</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/Foto-Inicio-1.png" alt="">
+            <div class="Subtitle">
+              <span>3</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-scrollbar"></div> -->
+      </div>
     </main>
     <footer>
       <p>&copy; <span id="year"></span> phorch69. Todos los derechos reservados.</p>
