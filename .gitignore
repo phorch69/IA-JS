@@ -23,7 +23,7 @@ yarn.lock
 # Archivos de configuración de IDE
 .vscode/
 .idea/
-
+ 
 # Archivos generados por el sistema operativo
 .DS_Store
 Thumbs.db
